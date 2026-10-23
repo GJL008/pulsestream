@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-10-23T15:38:07.248005+00:00",
+  "mode": "pulse",
+  "requests": 5000,
+  "connections": 16,
+  "payload_bytes": 256,
+  "warmup_per_connection": 100,
+  "elapsed_seconds": 2.4741,
+  "requests_per_second": 2020.9,
+  "latency_ms": {
+    "p50": 7.179,
+    "p95": 11.474,
+    "p99": 19.477,
+    "max": 30.296
+  },
+  "errors": 0,
+  "client_platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "method": "loopback, closed-loop, one outstanding request per connection; client and server share host",
+  "topic": "bench_1792769884639572300",
+  "durability": "FileChannel.force(true) before each acknowledgement"
+}

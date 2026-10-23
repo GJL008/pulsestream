@@ -1,0 +1,8 @@
+target/
+.tools/
+tmp/
+data/
+.idea/
+*.iml
+__pycache__/
+*.jfr

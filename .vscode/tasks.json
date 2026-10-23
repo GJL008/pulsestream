@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and test",
+      "type": "shell",
+      "command": "sh mvnw verify",
+      "windows": {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./dev.ps1 build"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$javac"
+      ]
+    },
+    {
+      "label": "Run PulseStream",
+      "type": "shell",
+      "command": "java -jar target/pulsestream-1.0.0.jar",
+      "windows": {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./dev.ps1 run"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "TCP smoke test",
+      "type": "shell",
+      "command": "python tools/smoke.py",
+      "windows": {
+        "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./dev.ps1 smoke"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

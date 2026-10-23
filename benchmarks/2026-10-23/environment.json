@@ -1,0 +1,6 @@
+{
+  "java": "openjdk version \"23.0.2\" 2025-01-21\nOpenJDK Runtime Environment (build 23.0.2+7-58)\nOpenJDK 64-Bit Server VM (build 23.0.2+7-58, mixed mode, sharing)\n",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+  "warning": "Short end-to-end local runs, not a saturation test or a Redis/Kafka comparison. Each run starts a fresh JVM."
+}
