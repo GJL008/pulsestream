@@ -96,7 +96,7 @@ Windows PowerShell:
 Linux/macOS (or use `mvnw.cmd` on Windows with JAVA_HOME configured):
 
 ```sh
-sh mvnw verify
+sh ./mvnw verify
 python tools/smoke.py
 java -jar target/pulsestream-1.0.0.jar
 ```

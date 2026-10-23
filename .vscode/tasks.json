@@ -4,7 +4,7 @@
     {
       "label": "Build and test",
       "type": "shell",
-      "command": "sh mvnw verify",
+      "command": "sh ./mvnw verify",
       "windows": {
         "command": "powershell -NoProfile -ExecutionPolicy Bypass -File ./dev.ps1 build"
       },
